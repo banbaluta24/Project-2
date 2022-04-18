@@ -1,0 +1,29 @@
+CREATE PROCEDURE `add new patient ` (
+FirstName	 VARCHAR(40),
+LastName	 VARCHAR(40),
+BirthDate	 Date,
+Gender	 	 CHAR(1),
+Phone 		 INTEGER,
+Address 	 VARCHAR(70),
+City 		 VARCHAR(30),
+State		 VARCHAR(30),
+Zip			 INTEGER,
+Country		 VARCHAR(30),
+Email		 VARCHAR(50),
+Insurance	 VARCHAR(40),
+SSN INTEGER
+)
+BEGIN DECLARE
+FirstName	 VARCHAR(40)
+LastName	 VARCHAR(40);
+Gender	 	 CHAR(3);
+Phone 		 INTEGER;
+Address 	 VARCHAR(70);
+City 		 VARCHAR(30);
+State		 VARCHAR(30);
+Zip			 INTEGER;
+Country		 VARCHAR(30);
+Email		 VARCHAR(50);
+Insurance	 VARCHAR(40);
+SSN INTEGER;
+END 
